@@ -5,6 +5,7 @@ const data = {
 			description: "asdeqwasewqs",
 			products: [
 				{
+					imageURL: "/images/braceletsSlider.jpg",
 					name: "qwert0",
 					id: "EZ1144",
 					price: 125412,
@@ -18,6 +19,7 @@ const data = {
 			description: "asdeqwasewqs",
 			products: [
 				{
+					imageURL: "/images/braceletsSlider.jpg",
 					name: "qwert0",
 					id: "EZ1144",
 					price: 125412,
@@ -31,6 +33,7 @@ const data = {
 			description: "asdeqwasewqs",
 			products: [
 				{
+					imageURL: "/images/braceletsSlider.jpg",
 					name: "qwert0",
 					id: "EZ1144",
 					price: 125412,
@@ -47,6 +50,7 @@ const data = {
 			description: "asdeqwasewqs",
 			products: [
 				{
+					imageURL: "/images/braceletsSlider.jpg",
 					name: "qwert0",
 					id: "EZ1144",
 					price: 125412,
@@ -60,6 +64,7 @@ const data = {
 			description: "asdeqwasewqs",
 			products: [
 				{
+					imageURL: "/images/braceletsSlider.jpg",
 					name: "qwert0",
 					id: "EZ1144",
 					price: 125412,
@@ -73,6 +78,7 @@ const data = {
 			description: "asdeqwasewqs",
 			products: [
 				{
+					imageURL: "/images/braceletsSlider.jpg",
 					name: "qwert0",
 					id: "EZ1144",
 					price: 125412,
@@ -88,6 +94,7 @@ const data = {
 			description: "asdeqwasewqs",
 			products: [
 				{
+					imageURL: "/images/braceletsSlider.jpg",
 					name: "qwert0",
 					id: "EZ1144",
 					price: 125412,
@@ -101,6 +108,7 @@ const data = {
 			description: "asdeqwasewqs",
 			products: [
 				{
+					imageURL: "/images/braceletsSlider.jpg",
 					name: "qwert0",
 					id: "EZ1144",
 					price: 125412,
@@ -114,6 +122,7 @@ const data = {
 			description: "asdeqwasewqs",
 			products: [
 				{
+					imageURL: "/images/braceletsSlider.jpg",
 					name: "qwert0",
 					id: "EZ1144",
 					price: 125412,

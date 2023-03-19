@@ -17,7 +17,7 @@ export default function Home() {
 			</Head>
 			<div>
 				<Navbar />
-				<div>
+				<div className=" text-center mt-5">
 					<h1>Shris Sterling</h1>
 					<p>Tag line</p>
 				</div>
