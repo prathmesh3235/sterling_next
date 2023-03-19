@@ -6,7 +6,6 @@ export default function Categories() {
 	const categories = Object.keys(data);
 	console.log("categories", categories);
 	const imageURLs = categories.map((cat) => {
-		console.log(data[cat][0]["products"][0]["imageURL"]);
 		return data[cat][0]["products"][0]["imageURL"];
 	});
 	return (
