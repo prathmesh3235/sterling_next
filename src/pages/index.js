@@ -6,6 +6,8 @@ import styles from "@/styles/Home.module.css";
 import Categories from "@/components/categories";
 import Navbar from "@/components/navbar";
 import Slider from "@/components/slider";
+import Footer from "@/components/footer";
+import BestSellingSlider from "@/components/bestSellingSlider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,6 +28,12 @@ export default function Home() {
 				</div>
 				<div>
 					<Categories />
+				</div>
+				<div>
+					<BestSellingSlider />
+				</div>
+				<div>
+					<Footer />
 				</div>
 			</div>
 		</>
