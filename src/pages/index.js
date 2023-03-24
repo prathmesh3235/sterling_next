@@ -26,10 +26,10 @@ export default function Home() {
 				<div>
 					<Slider />
 				</div>
-				<div>
+				<div className="m-10">
 					<Categories />
 				</div>
-				<div>
+				<div className=" w-full">
 					<BestSellingSlider />
 				</div>
 				<div>

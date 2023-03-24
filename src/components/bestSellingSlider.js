@@ -38,10 +38,20 @@ export default function BestSellingSlider() {
 	console.log("BEstSelling", bestSellingProducts);
 	return (
 		<>
-			<Carousel activeIndex={index} onSelect={handleSelect}>
+			<Carousel
+				activeIndex={index}
+				onSelect={handleSelect}
+				className=" h-140 w-full"
+			>
 				{bestSellingProducts.map((item) => (
 					<Carousel.Item key={item.id} className={styles.itemP} interval={1000}>
-						<Image src={item.imageURL} alt="slides" width={500} height={500} />
+						<Image
+							src={"/images/braceletsSlider.jpg"}
+							alt="slides"
+							width={500}
+							height={500}
+							className=" w-fit h-fit"
+						/>
 						<Carousel.Caption className={styles.caption}>
 							{/* <h3>{item.title}</h3> */}
 							<p>{item.description}</p>
