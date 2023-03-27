@@ -170,8 +170,8 @@ const data = {
 					instock: true,
 					outofstock: true,
 				},
-			]
-	    },
+			],
+		},
 		{
 			name: "Hearts",
 			description: "Category Desc",
@@ -208,8 +208,8 @@ const data = {
 					instock: true,
 					outofstock: true,
 				},
-			]
-	    },
+			],
+		},
 
 		{
 			name: "Hoops",
@@ -247,8 +247,8 @@ const data = {
 					instock: true,
 					outofstock: true,
 				},
-			]
-	    },
+			],
+		},
 		{
 			name: "Plain Silver",
 			description: "Category Desc",
@@ -310,17 +310,14 @@ const data = {
 						"Width: 16 mm",
 						"Weight: 4.25 grams",
 						"Material: Nickel Free Sterling Silver",
-						
 					],
 					description: "Plain Silver Hoops Earrings with Yellow Gold Plating",
 					bestselling: true,
 					instock: true,
 					outofstock: true,
 				},
-
-
-			]
-	    },
+			],
+		},
 
 		{
 			name: "Studs",
@@ -358,12 +355,12 @@ const data = {
 					instock: true,
 					outofstock: true,
 				},
-			]
-	    }
-	
+			],
+		},
 	],
 
-	Bracelets: [		{
+	Bracelets: [
+		{
 			name: "Cubic Zirconia (CZ)",
 			description: "Description",
 			products: [
@@ -415,29 +412,42 @@ const data = {
 					imageURL: "/images/Neclaces/PSNCZ01.jpg",
 					id: "PSNCZ01",
 					price: 125412,
-					features: ["Length: 16''+2'' Ext.", 
-					"Pendant Diameter: 8.2mm", 
-					"Weight: 2.5 grams", "Material: Nickel Free Sterling Silver", "Plating: Rhodium "],
+					features: [
+						"Length: 16''+2'' Ext.",
+						"Pendant Diameter: 8.2mm",
+						"Weight: 2.5 grams",
+						"Material: Nickel Free Sterling Silver",
+						"Plating: Rhodium ",
+					],
 					description: "Silver Heart Necklace with White CZ Stone",
 				},
 				{
 					imageURL: "/images/Neclaces/PSNCZ02.jpg",
 					id: "PSNCZ02",
 					price: 125412,
-					features: ["Length: 16''+2'' Ext.", 
-					"Pendant Diameter: 14.5 mm with bail", 
-					"Weight: 2.5 grams", "Material: Nickel Free Sterling Silver", "Plating: Rhodium "],
+					features: [
+						"Length: 16''+2'' Ext.",
+						"Pendant Diameter: 14.5 mm with bail",
+						"Weight: 2.5 grams",
+						"Material: Nickel Free Sterling Silver",
+						"Plating: Rhodium ",
+					],
 					description: "Silver Turtle Necklace with White CZ Stones",
 				},
 				{
 					imageURL: "/images/Neclaces/PSNCZ03.jpg",
 					id: "PSNCZ03",
 					price: 125412,
-					features: ["Length: 16''+2'' Ext.", 
-					"Pendant Length: 11.4 mm with bail", 
-					"Pendant Width: 9.7mm",
-					"Weight:1.4 grams", "Material: Nickel Free Sterling Silver", "Plating: Rhodium "],
-					description: "Silver Evil Eye Necklace with White CZ Stones and Yellow Gold Plating",
+					features: [
+						"Length: 16''+2'' Ext.",
+						"Pendant Length: 11.4 mm with bail",
+						"Pendant Width: 9.7mm",
+						"Weight:1.4 grams",
+						"Material: Nickel Free Sterling Silver",
+						"Plating: Rhodium ",
+					],
+					description:
+						"Silver Evil Eye Necklace with White CZ Stones and Yellow Gold Plating",
 				},
 			],
 		},
@@ -449,42 +459,43 @@ const data = {
 					imageURL: "/images/Neclaces/PSNH01.jpg",
 					id: "PSNH01",
 					price: 125412,
-					features: ["Length: 16''+1'' Ext.", 
-					"Pendant Length: 7.8mm", 
-					"Pendant Width: 8mm",
-					"Material: Nickel Free Sterling Silver",
-					"Plating: Rhodium",
-				
-				],
+					features: [
+						"Length: 16''+1'' Ext.",
+						"Pendant Length: 7.8mm",
+						"Pendant Width: 8mm",
+						"Material: Nickel Free Sterling Silver",
+						"Plating: Rhodium",
+					],
 					description: "Plating: Rhodium",
 				},
 				{
 					imageURL: "/images/Neclaces/PSNH02.jpg",
 					id: "PSNH02",
 					price: 125412,
-					features: ["Length: 16''+2'' Ext.", 
-					"Pendant Length: 17 mm with Bail", 
-					"Pendant Width: 14.7 mm",
-					"Weight: 2.4 grams",
-					"Material: Nickel Free Sterling Silver",
-					"Plating: Rhodium",
-				
-				],
+					features: [
+						"Length: 16''+2'' Ext.",
+						"Pendant Length: 17 mm with Bail",
+						"Pendant Width: 14.7 mm",
+						"Weight: 2.4 grams",
+						"Material: Nickel Free Sterling Silver",
+						"Plating: Rhodium",
+					],
 					description: "Weight: 2.4 grams",
 				},
 				{
 					imageURL: "/images/Neclaces/PSNH03.jpg",
 					id: "PSNH03",
 					price: 125412,
-					features: ["Chain Length: 16'' + 1.5'' extension", 
-					"Heart Length: 10mm", 
-					"Heart Width: 11.8mm",
-					"Weight of Necklace: 2.4 grams",
-					"Material: Nickel Free Sterling Silver",
-					"Plating: Rhodium",
-				
-				],
-					description: "Silver Heart Necklace with Cubic Zirconia. Center Stone Dances",
+					features: [
+						"Chain Length: 16'' + 1.5'' extension",
+						"Heart Length: 10mm",
+						"Heart Width: 11.8mm",
+						"Weight of Necklace: 2.4 grams",
+						"Material: Nickel Free Sterling Silver",
+						"Plating: Rhodium",
+					],
+					description:
+						"Silver Heart Necklace with Cubic Zirconia. Center Stone Dances",
 				},
 			],
 		},
@@ -496,13 +507,13 @@ const data = {
 					imageURL: "/images/Necklaces/PSNPS01.jpg",
 					id: "PSNPS01",
 					price: 125412,
-					features: ["Length: 16'' +2'' Ext.",
-					 "Length Pendant: 7.8mm",
-					 "Width Pendant: 7mm",
-					"Weight: 2.7 grams",
-					"Material: Nickel Free Sterling Silver",
-					"Plating: Rhodium"
-
+					features: [
+						"Length: 16'' +2'' Ext.",
+						"Length Pendant: 7.8mm",
+						"Width Pendant: 7mm",
+						"Weight: 2.7 grams",
+						"Material: Nickel Free Sterling Silver",
+						"Plating: Rhodium",
 					],
 					description: "Plain Silver Double Layered Heart Necklace",
 				},
@@ -510,13 +521,13 @@ const data = {
 					imageURL: "/images/Necklaces/PSNPS02.jpg",
 					id: "PSNPS02",
 					price: 125412,
-					features: ["Length: 16'' +1'' Ext.",
-					 "Length Pendant: 7.2 mm",
-					 "Width Pendant: 6.9 mm",
-					"Weight: 2.30 grams",
-					"Material: Nickel Free Sterling Silver",
-					"Plating: Rhodium"
-
+					features: [
+						"Length: 16'' +1'' Ext.",
+						"Length Pendant: 7.2 mm",
+						"Width Pendant: 6.9 mm",
+						"Weight: 2.30 grams",
+						"Material: Nickel Free Sterling Silver",
+						"Plating: Rhodium",
 					],
 					description: "Plain Silver Necklace",
 				},
@@ -524,17 +535,16 @@ const data = {
 					imageURL: "/images/Necklaces/PSNPS03.jpg",
 					id: "PSNPS03",
 					price: 125412,
-					features: ["Length: 16'' +2'' Ext.",
-					 "Length Pendant: 24 mm",
-					 "Width Pendant: 14.30 mm",
-					"Weight: 4 grams",
-					"Material: Nickel Free Sterling Silver",
-					"Plating: Rhodium"
-
+					features: [
+						"Length: 16'' +2'' Ext.",
+						"Length Pendant: 24 mm",
+						"Width Pendant: 14.30 mm",
+						"Weight: 4 grams",
+						"Material: Nickel Free Sterling Silver",
+						"Plating: Rhodium",
 					],
 					description: "Plain Silver Cross Necklace",
 				},
-				
 			],
 		},
 		{
@@ -545,11 +555,12 @@ const data = {
 					imageURL: "/images/Necklaces/PSNR01.jpg",
 					id: "PSNR01",
 					price: 125412,
-					features: ["Length: 16''+2'' Ext.",
-					 "Pendant Length: 20.70mm with bail",
-					 "Pendant Width: 11.76mm",
-					 "Weight: 2.10 grams",
-					 "Nickel Free Sterling Silver"
+					features: [
+						"Length: 16''+2'' Ext.",
+						"Pendant Length: 20.70mm with bail",
+						"Pendant Width: 11.76mm",
+						"Weight: 2.10 grams",
+						"Nickel Free Sterling Silver",
 					],
 					description: "Silver Cross Necklace with CZ",
 				},
@@ -579,12 +590,14 @@ const data = {
 					imageURL: "/images/Pearls/PSPE01.jpg",
 					id: "PSPE01",
 					price: 125412,
-					features: ["Length: 12 mm",
-				"Width: 13mm",
-				"Weight: 4 grams",
-				"Pearl Size: 7mm",
-				"Material: Nickel Free Sterling Silver",
-				"Plating: Rhodium"],
+					features: [
+						"Length: 12 mm",
+						"Width: 13mm",
+						"Weight: 4 grams",
+						"Pearl Size: 7mm",
+						"Material: Nickel Free Sterling Silver",
+						"Plating: Rhodium",
+					],
 					description: "Silver Freshwater Pearl Erring with CZ",
 				},
 
@@ -592,12 +605,14 @@ const data = {
 					imageURL: "/images/Pearls/PSPE02.jpg",
 					id: "PSPE02",
 					price: 125412,
-					features: ["Length: 10.9 mm",
-				"Width: 8 mm",
-				"Weight: 1.8 grams",
-				"Pearl Size: 7mm",
-				"Material: Nickel Free Sterling Silver",
-				"Plating: Rhodium"],
+					features: [
+						"Length: 10.9 mm",
+						"Width: 8 mm",
+						"Weight: 1.8 grams",
+						"Pearl Size: 7mm",
+						"Material: Nickel Free Sterling Silver",
+						"Plating: Rhodium",
+					],
 					description: "Silver Fresh Water Pearl Earrings With CZ",
 				},
 			],
@@ -610,15 +625,18 @@ const data = {
 					imageURL: "/images/Pearls/PSPN01.jpg",
 					id: "PSPN01",
 					price: 125412,
-					features: ["Chain Length: 16'' + 2'' Extension",
-				"Pear Size: 8mm",
-			     "Heart Length:10mm",
-				"Heart Width: 11.5mm",
-			    "Weight: 3.5 Grams", 
-			    "Material: Nickel Free Sterling Silver",
-			    "Plating: Yellow Gold Plated"],
+					features: [
+						"Chain Length: 16'' + 2'' Extension",
+						"Pear Size: 8mm",
+						"Heart Length:10mm",
+						"Heart Width: 11.5mm",
+						"Weight: 3.5 Grams",
+						"Material: Nickel Free Sterling Silver",
+						"Plating: Yellow Gold Plated",
+					],
 
-					description: "Silver Drop Faux Pearl Gold Plated Necklace with Heart CZ - 16'' + 2'' Length",
+					description:
+						"Silver Drop Faux Pearl Gold Plated Necklace with Heart CZ - 16'' + 2'' Length",
 				},
 			],
 		},
@@ -630,10 +648,12 @@ const data = {
 					imageURL: "/images/Pearls/PSPR01.jpg",
 					id: "PSNRL01",
 					price: 125412,
-					features: ["Across Top: 12mm",
-				    "Pearl Size: 7.5mm",
-				    "Material: Nickel Free Sterling Silver",
-				    "Plating: Rhodium"],
+					features: [
+						"Across Top: 12mm",
+						"Pearl Size: 7.5mm",
+						"Material: Nickel Free Sterling Silver",
+						"Plating: Rhodium",
+					],
 					description: "Silver Freshwater Pearl Ring with CZ",
 				},
 				{
@@ -641,11 +661,12 @@ const data = {
 					id: "PSNRL02",
 					price: 125412,
 					features: [
-				    "Across Top: 9.3 mm",
-				    "Weight: 2 grams",
-					"Pearl Size: 5.5mm",
-				    "Material: Nickel Free Sterling Silver",
-				    "Plating: Rhodium"],
+						"Across Top: 9.3 mm",
+						"Weight: 2 grams",
+						"Pearl Size: 5.5mm",
+						"Material: Nickel Free Sterling Silver",
+						"Plating: Rhodium",
+					],
 					description: "Silver Freshwater Pearl Ring with CZ",
 				},
 				{
@@ -653,10 +674,11 @@ const data = {
 					id: "PSNRL03",
 					price: 125412,
 					features: [
-					"Center Stone Freshwater Pearl Diameter: 8.74mm",
-					"Weight: 4.07 grams",
-				    "Material:Sterling Silver",
-				    "Plating: Rhodium"],
+						"Center Stone Freshwater Pearl Diameter: 8.74mm",
+						"Weight: 4.07 grams",
+						"Material:Sterling Silver",
+						"Plating: Rhodium",
+					],
 					description: "Silver Ring with Freshwater Pearl",
 				},
 			],
@@ -669,22 +691,21 @@ const data = {
 					imageURL: "/images/Pearls/PSPS01.jpg",
 					id: "PSPS01",
 					price: 125412,
-					features: ["Pendant Length: 17.6mm with Bail",
-				    "Pendant Width: 11.6mm",
-					"Pendant Width: 11.6mm",
-					"Earring Diameter: 11.7mm",
-					"Earring Weight: 3 grams",
-					"Pearl size: 6.5mm",
-					"Material: Nickel Free Sterling Silver",
-					"Plating: Rhodium"
-
-				],
+					features: [
+						"Pendant Length: 17.6mm with Bail",
+						"Pendant Width: 11.6mm",
+						"Pendant Width: 11.6mm",
+						"Earring Diameter: 11.7mm",
+						"Earring Weight: 3 grams",
+						"Pearl size: 6.5mm",
+						"Material: Nickel Free Sterling Silver",
+						"Plating: Rhodium",
+					],
 					description: "Plating: Rhodium",
 				},
 			],
 		},
-
-	]
+	],
 };
 
 export default data;
