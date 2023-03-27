@@ -576,7 +576,7 @@ const data = {
 			description: "description",
 			products: [
 				{
-					imageURL: "/images/Pearl/PSPE01.jpg",
+					imageURL: "/images/Pearls/PSPE01.jpg",
 					id: "PSPE01",
 					price: 125412,
 					features: ["Length: 12 mm",
@@ -589,7 +589,7 @@ const data = {
 				},
 
 				{
-					imageURL: "/images/Pearl/PSPE02.jpg",
+					imageURL: "/images/Pearls/PSPE02.jpg",
 					id: "PSPE02",
 					price: 125412,
 					features: ["Length: 10.9 mm",
@@ -607,7 +607,7 @@ const data = {
 			description: "description",
 			products: [
 				{
-					imageURL: "/images/Pearl/PSPN01.jpg",
+					imageURL: "/images/Pearls/PSPN01.jpg",
 					id: "PSPN01",
 					price: 125412,
 					features: ["Chain Length: 16'' + 2'' Extension",
@@ -627,7 +627,7 @@ const data = {
 			description: "description",
 			products: [
 				{
-					imageURL: "/images/Pearl/PSPR01.jpg",
+					imageURL: "/images/Pearls/PSPR01.jpg",
 					id: "PSNRL01",
 					price: 125412,
 					features: ["Across Top: 12mm",
@@ -637,7 +637,7 @@ const data = {
 					description: "Silver Freshwater Pearl Ring with CZ",
 				},
 				{
-					imageURL: "/images/Pearl/PSPR02.jpg",
+					imageURL: "/images/Pearls/PSPR02.jpg",
 					id: "PSNRL02",
 					price: 125412,
 					features: [
@@ -649,7 +649,7 @@ const data = {
 					description: "Silver Freshwater Pearl Ring with CZ",
 				},
 				{
-					imageURL: "/images/Pearl/PSPR03.jpg",
+					imageURL: "/images/Pearls/PSPR03.jpg",
 					id: "PSNRL03",
 					price: 125412,
 					features: [
@@ -666,7 +666,7 @@ const data = {
 			description: "description",
 			products: [
 				{
-					imageURL: "/images/Pearl/PSPS01.jpg",
+					imageURL: "/images/Pearls/PSPS01.jpg",
 					id: "PSPS01",
 					price: 125412,
 					features: ["Pendant Length: 17.6mm with Bail",
