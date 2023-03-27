@@ -570,6 +570,121 @@ const data = {
 			],
 		},
 	],
+	Pearl: [
+		{
+			name: "Earrings",
+			description: "description",
+			products: [
+				{
+					imageURL: "/images/Pearl/PSPE01.jpg",
+					id: "PSPE01",
+					price: 125412,
+					features: ["Length: 12 mm",
+				"Width: 13mm",
+				"Weight: 4 grams",
+				"Pearl Size: 7mm",
+				"Material: Nickel Free Sterling Silver",
+				"Plating: Rhodium"],
+					description: "Silver Freshwater Pearl Erring with CZ",
+				},
+
+				{
+					imageURL: "/images/Pearl/PSPE02.jpg",
+					id: "PSPE02",
+					price: 125412,
+					features: ["Length: 10.9 mm",
+				"Width: 8 mm",
+				"Weight: 1.8 grams",
+				"Pearl Size: 7mm",
+				"Material: Nickel Free Sterling Silver",
+				"Plating: Rhodium"],
+					description: "Silver Fresh Water Pearl Earrings With CZ",
+				},
+			],
+		},
+		{
+			name: "Necklaces",
+			description: "description",
+			products: [
+				{
+					imageURL: "/images/Pearl/PSPN01.jpg",
+					id: "PSPN01",
+					price: 125412,
+					features: ["Chain Length: 16'' + 2'' Extension",
+				"Pear Size: 8mm",
+			     "Heart Length:10mm",
+				"Heart Width: 11.5mm",
+			    "Weight: 3.5 Grams", 
+			    "Material: Nickel Free Sterling Silver",
+			    "Plating: Yellow Gold Plated"],
+
+					description: "Silver Drop Faux Pearl Gold Plated Necklace with Heart CZ - 16'' + 2'' Length",
+				},
+			],
+		},
+		{
+			name: "Rings",
+			description: "description",
+			products: [
+				{
+					imageURL: "/images/Pearl/PSPR01.jpg",
+					id: "PSNRL01",
+					price: 125412,
+					features: ["Across Top: 12mm",
+				    "Pearl Size: 7.5mm",
+				    "Material: Nickel Free Sterling Silver",
+				    "Plating: Rhodium"],
+					description: "Silver Freshwater Pearl Ring with CZ",
+				},
+				{
+					imageURL: "/images/Pearl/PSPR02.jpg",
+					id: "PSNRL02",
+					price: 125412,
+					features: [
+				    "Across Top: 9.3 mm",
+				    "Weight: 2 grams",
+					"Pearl Size: 5.5mm",
+				    "Material: Nickel Free Sterling Silver",
+				    "Plating: Rhodium"],
+					description: "Silver Freshwater Pearl Ring with CZ",
+				},
+				{
+					imageURL: "/images/Pearl/PSPR03.jpg",
+					id: "PSNRL03",
+					price: 125412,
+					features: [
+					"Center Stone Freshwater Pearl Diameter: 8.74mm",
+					"Weight: 4.07 grams",
+				    "Material:Sterling Silver",
+				    "Plating: Rhodium"],
+					description: "Silver Ring with Freshwater Pearl",
+				},
+			],
+		},
+		{
+			name: "Sets",
+			description: "description",
+			products: [
+				{
+					imageURL: "/images/Pearl/PSPS01.jpg",
+					id: "PSPS01",
+					price: 125412,
+					features: ["Pendant Length: 17.6mm with Bail",
+				    "Pendant Width: 11.6mm",
+					"Pendant Width: 11.6mm",
+					"Earring Diameter: 11.7mm",
+					"Earring Weight: 3 grams",
+					"Pearl size: 6.5mm",
+					"Material: Nickel Free Sterling Silver",
+					"Plating: Rhodium"
+
+				],
+					description: "Plating: Rhodium",
+				},
+			],
+		},
+
+	]
 };
 
 export default data;
