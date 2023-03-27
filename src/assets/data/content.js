@@ -270,7 +270,7 @@ const data = {
 					outofstock: true,
 				},
 				{
-					imageURL: "/images/Earings/PSEPS2.jpg",
+					imageURL: "/images/Earings/PSEPS02.jpg",
 					id: "PSEPS02",
 					price: 1234,
 					features: [
