@@ -412,7 +412,7 @@ const data = {
 			description: "Description",
 			products: [
 				{
-					imageURL: "/images/Neclaces/PSNCZ01.jpg",
+					imageURL: "/images/Necklaces/PSNCZ01.jpg",
 					id: "PSNCZ01",
 					price: 125412,
 					features: ["Length: 16''+2'' Ext.", 
@@ -421,7 +421,7 @@ const data = {
 					description: "Silver Heart Necklace with White CZ Stone",
 				},
 				{
-					imageURL: "/images/Neclaces/PSNCZ02.jpg",
+					imageURL: "/images/Necklaces/PSNCZ02.jpg",
 					id: "PSNCZ02",
 					price: 125412,
 					features: ["Length: 16''+2'' Ext.", 
@@ -430,7 +430,7 @@ const data = {
 					description: "Silver Turtle Necklace with White CZ Stones",
 				},
 				{
-					imageURL: "/images/Neclaces/PSNCZ03.jpg",
+					imageURL: "/images/Necklaces/PSNCZ03.jpg",
 					id: "PSNCZ03",
 					price: 125412,
 					features: ["Length: 16''+2'' Ext.", 
@@ -446,7 +446,7 @@ const data = {
 			description: "Description",
 			products: [
 				{
-					imageURL: "/images/Neclaces/PSNH01.jpg",
+					imageURL: "/images/Necklaces/PSNH01.jpg",
 					id: "PSNH01",
 					price: 125412,
 					features: ["Length: 16''+1'' Ext.", 
@@ -459,7 +459,7 @@ const data = {
 					description: "Plating: Rhodium",
 				},
 				{
-					imageURL: "/images/Neclaces/PSNH02.jpg",
+					imageURL: "/images/Necklaces/PSNH02.jpg",
 					id: "PSNH02",
 					price: 125412,
 					features: ["Length: 16''+2'' Ext.", 
@@ -473,7 +473,7 @@ const data = {
 					description: "Weight: 2.4 grams",
 				},
 				{
-					imageURL: "/images/Neclaces/PSNH03.jpg",
+					imageURL: "/images/Necklaces/PSNH03.jpg",
 					id: "PSNH03",
 					price: 125412,
 					features: ["Chain Length: 16'' + 1.5'' extension", 
