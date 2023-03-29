@@ -35,7 +35,6 @@ export default function BestSellingSlider() {
 			return products;
 		}
 	});
-	console.log("BEstSelling", bestSellingProducts);
 	return (
 		<>
 			<Carousel

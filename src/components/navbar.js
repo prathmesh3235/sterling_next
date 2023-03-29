@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Navbar() {
 	return (
 		<>
-			<div className="flex justify-around p-2 bg-slate-900 font-mono font-medium font fixed top-0 right-0 w-full">
+			<div className="flex justify-around p-2 bg-slate-900 font-mono font-medium font top-0 right-0 w-full">
 				<div className="">
 					<input type="string" placeholder=" Search" className=" p-1.5" />
 				</div>
