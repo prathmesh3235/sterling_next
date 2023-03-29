@@ -706,6 +706,169 @@ const data = {
 			],
 		},
 	],
-};
+	Rings: [
+		{
+			name: "Cubic Zirconia",
+			description: "description",
+			products: [
+				{
+					imageURL: "/images/Rings/PSRCZ01.jpg",
+					id: "PSRCZ01",
+					price: 125412,
+					features: [
+						"Across Top: 7.5mm",
+						"Weight: 2.5 grams",
+						"Material: Nickel Free Sterling Silver",
+						"Plating: Rhodium",
+					],
+					description: "Silver Ring with White CZ Stones",
+				},
+				{
+					imageURL: "/images/Rings/PSRCZ02.jpg",
+					id: "PSRCZ02",
+					price: 125412,
+					features: [
+						"Across Top: 1.5mm",
+						"Weight: 1.3 grams",
+						"Material: Nickel Free Sterling Silver",
+						"Plating: Rhodium",
+					],
+					description: "Silver Ring with White CZ Stones",
+				},
+				{
+					imageURL: "/images/Rings/PSRCZ03.jpg",
+					id: "PSRCZ03",
+					price: 125412,
+					features: [
+						"Across Top: 4 mm",
+						"Weight: 1.5 grams",
+						"Material: Nickel Free Sterling Silver",
+						"Plating: Rhodium",
+					],
+					description: "Silver Ring with White CZ Stones",
+				},
+			],
+		},
+				{
+					name: "Gemstone",
+					description: "description",
+					products: [
+						{
+							imageURL: "/images/Rings/PSRGS01.jpg",
+							id: "PSRGS01",
+							price: 125412,
+							features: [
+								"Width: 22.8mm across the top",
+								"Weight: 7.0 grams",
+								"Material: Sterling Silver",
+								"Plating: Rhodium",
+							],
+							description: "Silver Ring with Agate",
+						},
+						{
+							imageURL: "/images/Rings/PSRGS02.jpg",
+							id: "PSRGS02",
+							price: 125412,
+							features: [
+								"Width: 11.5mm across the top",
+								"Weight: 6.1 grams",
+								"Material: Sterling Silver",
+								"Plating: Rhodium",
+							],
+							description: "Silver Ring with Black Onyx",
+						}
+			]
+		},
+		{
+			name: "Plain Silver",
+			description: "description",
+			products: [
+				{
+					imageURL: "/images/Rings/PSRPS01.jpg",
+					id: "PSRPS01",
+					price: 125412,
+					features: [
+						"Across Top: 9mm",
+						"Weight: 2 grams",
+						"Material: Nickel Free Sterling Silver",
+						"Plating: Rhodium",
+					],
+					description: "Plain Silver Adjustable Hand Ring",
+				},
+				{
+					imageURL: "/images/Rings/PSRPS02.jpg",
+					id: "PSRPS02",
+					price: 125412,
+					features: [
+						"Across Top: 3.6mm",
+						"Weight: 3.4 grams",
+						"Material: Nickel Free Sterling Silver",
+						"Plating: Yellow Gold Plated",
+					],
+					description: "Plain Adjustable Silver Ring with Yellow Gold Plated",
+				},
+				{
+					imageURL: "/images/Rings/PSRPS03.jpg",
+					id: "PSRPS03",
+					price: 125412,
+					features: [
+						"Across Top: 5 mm",
+						"Weight: 1.5 grams",
+						"Material: Nickel Free Sterling Silver",
+						"Plating: Rhodium",
+					],
+					description: "Plain Love Knot Silver Ring",
+				}
+
+	]
+},
+{
+	name: "Eternity",
+	description: "description",
+	products: [
+		{
+			imageURL: "/images/Rings/PSRE01.jpg",
+			id: "PSRE01",
+			price: 125412,
+			features: [
+				"Across Top: 31mm",
+				"Weight: 2.3 grams",
+				"Material: Nickel Free Sterling Silver",
+				"Plating: Rhodium",
+			],
+			description: "Silver Half Eternity Wedding Band Ring With CZ",
+		},
+		{
+			imageURL: "/images/Rings/PSRE02.jpg",
+			id: "PSRE02",
+			price: 125412,
+			features: [
+				"Across Top: 3mm",
+				"Weight: 2.0 grams",
+				"Material: Nickel Free Sterling Silver",
+				"Plating: Rhodium",
+			],
+			description: "Silver Ring with Cubic Zirconia",
+		},
+		{
+			imageURL: "/images/Rings/PSRE03.jpg",
+			id: "PSRE03",
+			price: 125412,
+			features: [
+				"Across Top: 4.5mm",
+				"Stone Size: 2.5mm",
+				"Weight: 4.47 grams",
+				"Material: Nickel Free Sterling Silver",
+				"Plating: Rhodium",
+			],
+			description: "Silver Ring with Cubic Zirconia",
+		},
+		
+		
+	]
+}
+	]
+}
+
 
 export default data;
