@@ -14,12 +14,12 @@ export default function BootstrapCarousel() {
 	return (
 		<Carousel activeIndex={index} onSelect={handleSelect}>
 			{bootstrap.map((item) => (
-				<Carousel.Item key={item.id} className={styles.itemP} interval={1000}>
-					<Image src={item.imageUrl} alt="slides" width={500} height={500} />
+				<Carousel.Item key={item.id} className={styles.itemP} interval={1500}>
+					<Image src={item.imageUrl} alt="slides" width={5000} height={5000} />
 					<Carousel.Caption className={styles.caption}>
 						<h3>{item.title}</h3>
 						<p>{item.body}</p>
-						<button className="btn btn-danger">Visit Docs</button>
+						<button className="btn btn-danger">Visit</button>
 					</Carousel.Caption>
 				</Carousel.Item>
 			))}
