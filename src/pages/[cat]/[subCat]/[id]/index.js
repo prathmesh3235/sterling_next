@@ -21,22 +21,35 @@ export default function ProductPage() {
 					}
 				})[0]
 		: {};
-	console.log("Product", product);
 	return (
 		<>
-			<div className=" h-screen">
+			<div className=" h-screen content-between">
 				<Navbar />
 				<div className=" text-center">
 					<DirectoryPath />
 					<h1>{product.description}</h1>
-					<div className=" text-center">
+					<div className="flex justify-center">
 						<Image
 							src={product.imageURL}
 							alt={product.id}
 							width={250}
 							height={250}
 						/>
-						<h2> Price: {product.price}</h2>
+						<h2 className=""> Price: {product.price}</h2>
+					</div>
+					<h1>Share this Product</h1>
+					<div>
+						<h1>Description: </h1>
+						<h1>{product.description}</h1>
+					</div>
+					<div>
+						<h1>Features: </h1>
+						<ul>
+							{product.features &&
+								product.features.map((feature) => {
+									return <li key={feature}> {feature} </li>;
+								})}
+						</ul>
 					</div>
 				</div>
 				<Footer />
