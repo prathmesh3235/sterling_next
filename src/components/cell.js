@@ -6,7 +6,7 @@ export default function Cell({ productName, productURL, productImg }) {
 	const route = window.location.href;
 	return (
 		<>
-			<div className="cell border-solid border-2 border-sky-500 text-center m-10 h-65">
+			<div className=" justify-center font-mono font-semibold cell border-double rounded-lg scale-95 border-4 border-black text-black no-underline text-center mr-10 mb-5 mt-10 hover:scale-110 transition-all ease-in-out duration-700 animate-none">
 				<Link
 					href={{
 						pathname: route + "/" + productURL,

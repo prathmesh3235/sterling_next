@@ -1,12 +1,13 @@
 .navbar {
 	display: flex;
-	background-color: aqua;
+	background-color: black;
 	justify-content: space-around;
 }
 
 .categories {
-	background-color: aqua;
+	background-color:black;
 	display: flex;
+	
 }
 
 @tailwind base;

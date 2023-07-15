@@ -5,13 +5,13 @@ import Link from "next/link";
 export default function Category({ items, imageURL }) {
 	return (
 		<>
-			<Link
+			<Link className="text-black m-4"
 				href={{
 					pathname: "/" + items,
 				}}
 			>
-				<div className="cell border-solid border-2 border-sky-500 text-center m-10">
-					<Image src={imageURL} alt="category" width={500} height={500} />
+				<div className="cell border-double rounded-lg scale-95 border-inherit border-2 border-black text-black no-underline text-center m-2 hover:scale-110 transition-all ease-in-out duration-700 animate-none">
+					<Image src={imageURL} alt="category" width={300} height={300} />
 					<h3>{items}</h3>
 				</div>
 			</Link>

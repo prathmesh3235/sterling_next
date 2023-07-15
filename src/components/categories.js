@@ -7,12 +7,14 @@ export default function Categories() {
 	const imageURLs = categories.map((cat) => {
 		return data[cat][0]["products"][0]["imageURL"];
 	});
+	console.log(imageURLs)
 	return (
 		<>
-			<div className="justify-center md:container md:mx-auto content-center p-5">
-				<div className="h-56 grid grid-cols-3 gap-4 content-center">
+			<div className="justify-center content-center bg-inherit">
+				<h1 className=" m-1 font-display text-center font-mono antialiased font-semibold tracking-wide text-rose-500"> Categories </h1>
+				<div className=" text-rose-500 flex flex-wrap content-center text-center justify-evenly p-4 gap-28">
 					{categories.map((cat, idx) => {
-						return <Category key={cat} items={cat} imageURL={imageURLs[idx]} />;
+						return <Category key={cat} items={cat} imageURL={'/images/' + cat +'/' + cat + 'dp.png'} />;
 					})}
 				</div>
 			</div>

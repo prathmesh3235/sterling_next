@@ -4,14 +4,14 @@ import { CFooter, CLink } from "@coreui/react";
 export default function Footer() {
 	return (
 		<>
-			<CFooter className="flex bg-slate-600 p-10 text-center justify-around right-0 w-full bottom-0 left-0 m-auto">
-				<div>
-					<CLink href="https://coreui.io">CoreUI</CLink>
-					<span>&copy; 2023 creativeLabs.</span>
+			<CFooter className="flex bg-black p-10 text-center justify-around absolute right-0 w-full bottom-0 left-0 m-auto">
+				<div className="text-white">
+					<CLink href="https://google.com" className="text-white">Sterling</CLink>
+					<span>&copy; Sterling 2023</span>
 				</div>
 				<div>
-					<span>Powered by</span>
-					<CLink href="https://coreui.io">CoreUI</CLink>
+					<span className="text-white">Powered by </span>
+					<CLink href="https://coreui.io" className="text-white">Sterling</CLink>
 				</div>
 			</CFooter>
 		</>

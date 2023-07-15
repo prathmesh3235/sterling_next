@@ -12,6 +12,7 @@ export default function AboutUs() {
 		<>
 			<Head>
 				<title>Sterling</title>
+				
 			</Head>
 			<div>
 				<Navbar />

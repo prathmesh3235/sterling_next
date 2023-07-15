@@ -9,7 +9,7 @@ export default function DirectoryPath() {
 			<div className="flex justify-center p-2 bg-slate-900 font-mono font-medium font top-0 right-0 w-full">
 				{/* <div className="justify-around"> */}
 				<Link
-					className="text-purple-700 no-underline pr-1.5"
+					className="text-white no-underline pr-1.5"
 					href={{
 						pathname: "/",
 					}}
@@ -18,7 +18,7 @@ export default function DirectoryPath() {
 				</Link>
 				{router.query.cat && (
 					<Link
-						className="text-purple-700 no-underline pr-1.5"
+						className="text-cyan-600 no-underline pr-1.5"
 						href={{
 							pathname: "/" + router.query.cat,
 						}}
@@ -30,7 +30,7 @@ export default function DirectoryPath() {
 
 				{router.query.subCat && (
 					<Link
-						className="text-purple-700 no-underline pr-1.5"
+						className=" text-teal-500 no-underline pr-1.5"
 						href={{
 							pathname: "/" + router.query.cat + "/" + router.query.subCat,
 						}}
@@ -41,7 +41,7 @@ export default function DirectoryPath() {
 				)}
 				{router.query.id && (
 					<Link
-						className="text-purple-700 no-underline pr-1.5"
+						className=" text-yellow-900 no-underline pr-1.5"
 						href={{
 							pathname:
 								"/" +

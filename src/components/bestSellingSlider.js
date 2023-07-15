@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import Image from "next/image";
 import items from "../assets/data/Items";
-import { Carousel } from "react-bootstrap";
+import Carousel from 'better-react-carousel';
 import "bootstrap/dist/css/bootstrap.min.css";
 import styles from "../styles/Bootstrap.module.css";
 import data from "../assets/data/content";
@@ -36,29 +36,32 @@ export default function BestSellingSlider() {
 		}
 	});
 	return (
-		<>
+		<div className="mx-6 text-center pb-[150px] ">
+			<h1 className=" m-4 font-display text-center font-mono antialiased font-semibold tracking-wide text-rose-500">Our Bestselling Products</h1>
 			<Carousel
 				activeIndex={index}
 				onSelect={handleSelect}
 				className=" h-140 w-full"
+				cols={3} rows={1} gap={20} loop
 			>
 				{bestSellingProducts.map((item) => (
-					<Carousel.Item key={item.id} className={styles.itemP} interval={1000}>
+					<Carousel.Item key={item.id}>
 						<Image
-							src={"/images/braceletsSlider.jpg"}
+							src={"/images/sliderbg7.jpg"}
 							alt="slides"
-							width={500}
-							height={500}
+							width={2000}
+							height={2000}
 							className=" w-fit h-fit"
 						/>
-						<Carousel.Caption className={styles.caption}>
-							{/* <h3>{item.title}</h3> */}
+						
+						{/* <Carousel.Caption className={styles.caption}>
+							<h3>{item.title}</h3>
 							<p>{item.description}</p>
-							<button className="btn btn-danger">Visit Docs</button>
-						</Carousel.Caption>
+							<button className="btn btn-danger">Visit</button>
+						</Carousel.Caption> */}
 					</Carousel.Item>
 				))}
 			</Carousel>
-		</>
+		</div>
 	);
 }

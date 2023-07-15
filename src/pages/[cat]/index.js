@@ -13,10 +13,10 @@ export default function CategoryPage() {
 	const category = data[router.query.cat];
 	return (
 		<>
-			<div className=" h-screen">
+			<div className="bg-my_bg_image2 bg-contain min-h-screen relative">
 				<Navbar />
 				<DirectoryPath />
-				<div className="flex flex-wrap">
+				<div className="flex flex-wrap justify-center pb-[150px]">
 					{category && [
 						...category.map((subCat) => {
 							return (

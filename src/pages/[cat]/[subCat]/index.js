@@ -18,10 +18,10 @@ export default function CategoryPage() {
 
 	return (
 		<>
-			<div className=" h-screen">
+			<div className="min-h-screen relative">
 				<Navbar />
 				<DirectoryPath />
-				<div className="flex flex-wrap">
+				<div className="flex flex-wrap justify-center">
 					{subCategory && [
 						...subCategory[0]["products"].map((prod) => {
 							return (

@@ -581,7 +581,7 @@ const data = {
 			],
 		},
 	],
-	Pearl: [
+	Pearls: [
 		{
 			name: "Earrings",
 			description: "description",
