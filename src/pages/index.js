@@ -16,14 +16,14 @@ export default function Home() {
       <Head>
         <title>Sterling</title>
       </Head>
-      <div className=" bg-my_bg_image bg-contain bg-no-repeat relative">
+      <div className=" bg-contain bg-no-repeat relative">
         <Navbar />
 
         <div>
-          <h1 className=" text-6xl text-center mt-4 font-bold font-racing track tracking-wide text-rose-500 ">
+          <h1 className=" text-6xl text-center mt-4 font-bold font-racing track tracking-wide text-black ">
             Shri's Sterling
           </h1>
-          <p className=" text-2xl text-center mt-1 font-racing text-red-500">
+          <p className=" text-2xl text-center mt-1 font-racing text-black">
             Jewellary and More{" "}
           </p>
         </div>
@@ -31,7 +31,8 @@ export default function Home() {
         <div>
           <Slider />
         </div>
-        <div className="m-10 bg-inherit">
+        {/* <div class="parallax"></div> */}
+        <div className="m-1.5 bg-inherit parallax">
           <Categories />
         </div>
         <div className=" w-full bg-inherit">
