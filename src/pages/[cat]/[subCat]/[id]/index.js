@@ -54,7 +54,10 @@ export default function ProductPage() {
                 height={350}
               />
             </div>
-            <div className="justify-evenly p-[30px] flex flex-col">
+            <div
+              style={{ padding: "30px" }}
+              className="justify-evenly flex flex-col"
+            >
               {/* <div>
                 <h1>Description: </h1>
                 <h1>{product.description}</h1>

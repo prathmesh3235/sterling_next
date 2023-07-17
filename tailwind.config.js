@@ -10,10 +10,10 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      racing: ["Racing Sans One', cursive;"],
+      racing: ["'Racing Sans One', 'cursive'"],
 
       display: ["Oswald"],
-      body: ['"Open Sans"'],
+      body: ["Open Sans"],
     },
     container: {
       center: true,

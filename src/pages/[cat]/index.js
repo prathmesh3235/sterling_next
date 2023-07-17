@@ -16,7 +16,10 @@ export default function CategoryPage() {
       <div className="bg-contain min-h-screen relative">
         <Navbar />
         <DirectoryPath />
-        <div className="bg-my_bg_image2 bg-cover flex flex-wrap justify-center pb-[120px] min-h-screen">
+        <div
+          style={{ paddingBottom: "120px" }}
+          className="bg-my_bg_image2 bg-cover flex flex-wrap justify-center min-h-screen"
+        >
           {category && [
             ...category.map((subCat) => {
               return (
