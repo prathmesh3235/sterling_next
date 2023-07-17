@@ -23,7 +23,7 @@ export default function CategoryPage() {
       <div className="min-h-screen relative">
         <Navbar />
         <DirectoryPath />
-        <div className="flex flex-wrap justify-center">
+        <div className="bg-my_bg_image2 pb-[120px] flex flex-wrap justify-center">
           {subCategory &&
             subCategory.length > 0 && [
               ...subCategory[0]["products"].map((prod) => {

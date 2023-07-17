@@ -11,7 +11,7 @@ export default function Categories() {
   return (
     <>
       <div className="justify-center content-center bg-inherit">
-        <h1 className=" m-1 font-display text-7xl text-center font-mono antialiased font-semibold tracking-wide text-white">
+        <h1 className=" m-1 font-display text-4xl sm:text-7xl text-center font-mono antialiased font-semibold tracking-wide text-white">
           {" "}
           Categories{" "}
         </h1>

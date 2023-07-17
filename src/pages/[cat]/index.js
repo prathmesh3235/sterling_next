@@ -9,29 +9,29 @@ import Cell from "@/components/cell";
 import DirectoryPath from "@/components/directoryPath";
 
 export default function CategoryPage() {
-	const router = useRouter();
-	const category = data[router.query.cat];
-	return (
-		<>
-			<div className="bg-my_bg_image2 bg-contain min-h-screen relative">
-				<Navbar />
-				<DirectoryPath />
-				<div className="flex flex-wrap justify-center pb-[150px]">
-					{category && [
-						...category.map((subCat) => {
-							return (
-								<Cell
-									key={subCat.name}
-									productName={subCat.name}
-									productURL={subCat.name}
-									productImg={subCat["products"][0].imageURL}
-								/>
-							);
-						}),
-					]}
-				</div>
-				<Footer />
-			</div>
-		</>
-	);
+  const router = useRouter();
+  const category = data[router.query.cat];
+  return (
+    <>
+      <div className="bg-contain min-h-screen relative">
+        <Navbar />
+        <DirectoryPath />
+        <div className="bg-my_bg_image2 bg-cover flex flex-wrap justify-center pb-[120px] min-h-screen">
+          {category && [
+            ...category.map((subCat) => {
+              return (
+                <Cell
+                  key={subCat.name}
+                  productName={subCat.name}
+                  productURL={subCat.name}
+                  productImg={subCat["products"][0].imageURL}
+                />
+              );
+            }),
+          ]}
+        </div>
+        <Footer />
+      </div>
+    </>
+  );
 }

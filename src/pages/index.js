@@ -16,7 +16,7 @@ export default function Home() {
       <Head>
         <title>Sterling</title>
       </Head>
-      <div className=" bg-contain bg-no-repeat relative">
+      <div className=" bg-contain bg-no-repeat relative grid">
         <Navbar />
 
         <div>
@@ -31,8 +31,7 @@ export default function Home() {
         <div>
           <Slider />
         </div>
-        {/* <div class="parallax"></div> */}
-        <div className="m-1.5 bg-inherit parallax">
+        <div className="m-1.5 bg-inherit parallax ">
           <Categories />
         </div>
         <div className=" w-full bg-inherit">

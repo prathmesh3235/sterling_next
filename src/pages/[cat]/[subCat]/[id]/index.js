@@ -39,40 +39,42 @@ export default function ProductPage() {
     : {};
   return (
     <>
-      <div className="content-between absolute min-h-screen w-screen">
+      <div className=" bg-my_bg_image2 content-between absolute min-h-screen w-screen">
         <Navbar />
         <div className=" text-center">
           <DirectoryPath />
           <h1>{product.description}</h1>
-          <div className="">
-            <Image
-              className="m-auto border-double rounded-lg scale-95 border-8 border-inherit hover:scale-110 transition-all ease-in-out duration-700 animate-pulse"
-              src={product.imageURL}
-              alt={product.id}
-              width={350}
-              height={350}
-            />
+          <div className="flex justify-center p-6 flex-col sm:flex-row">
+            <div className="">
+              <Image
+                className="m-auto border-hidden rounded-lg scale-95 border-8 border-inherit hover:scale-110 transition-all ease-in-out duration-700"
+                src={product.imageURL}
+                alt={product.id}
+                width={350}
+                height={350}
+              />
+            </div>
+            <div className="justify-evenly p-[30px] flex flex-col">
+              {/* <div>
+                <h1>Description: </h1>
+                <h1>{product.description}</h1>
+              </div> */}
+              <div>
+                {/* <h1>Features: </h1> */}
+                <ul className="text-left pl-0">
+                  {product.features &&
+                    product.features.map((feature) => {
+                      return <li key={feature}> {feature} </li>;
+                    })}
+                  <li className="text-xl"> Price: {product.price}$</li>
+                </ul>
+              </div>
+              <h1 onClick={copylink} className="btn btn-danger">
+                Share this Product
+              </h1>
+              {show && <h3>Copied Link to Clipboard</h3>}
+            </div>
           </div>
-          <div className="text-black">
-            <h2 className=""> Price: {product.price}</h2>
-          </div>
-          <div>
-            <h1>Description: </h1>
-            <h1>{product.description}</h1>
-          </div>
-          <div>
-            <h1>Features: </h1>
-            <ul>
-              {product.features &&
-                product.features.map((feature) => {
-                  return <li key={feature}> {feature} </li>;
-                })}
-            </ul>
-          </div>
-          <h1 onClick={copylink} className="btn btn-danger">
-            Share this Product
-          </h1>
-          {show && <h1>Copied Link to Clipboard</h1>}
         </div>
         <Footer />
       </div>

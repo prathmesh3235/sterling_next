@@ -52,7 +52,7 @@ export default function BestSellingSlider() {
         {bestSellingProducts.map((item) => (
           <Carousel.Item key={item.id}>
             <Image
-              src={"/images/sliderbg7.jpg"}
+              src={"/images/sliderbg6.jpg"}
               alt="slides"
               width={2000}
               height={2000}
