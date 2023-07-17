@@ -21,7 +21,7 @@ export default function Home() {
 
         <div>
           <h1 className=" text-6xl text-center mt-4 font-bold font-racing track tracking-wide text-black ">
-            Shri's Sterling
+            Shri&apos;s Sterling
           </h1>
           <p className=" text-2xl text-center mt-1 font-racing text-black">
             Jewellary and More{" "}
