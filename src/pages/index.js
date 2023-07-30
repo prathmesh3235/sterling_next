@@ -31,7 +31,7 @@ export default function Home() {
         <div>
           <Slider />
         </div>
-        <div className="m-1.5 bg-inherit parallax ">
+        <div className="m-1.5 bg-inherit parallax bg-left ">
           <Categories />
         </div>
         <div className=" w-full bg-inherit">
