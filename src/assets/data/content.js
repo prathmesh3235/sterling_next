@@ -22,7 +22,7 @@ const data = {
         {
           imageURL: "/images/Earings/PSECZ02.jpg",
           id: "PSECZ02",
-          price: 1234,
+          price: 49,
           features: [
             "Length: 16.9mm",
             "Width: 16.7mm",
@@ -37,7 +37,7 @@ const data = {
         {
           imageURL: "/images/Earings/PSECZ03.jpg",
           id: "PSECZ03",
-          price: 1234,
+          price: 39,
           features: [
             "Length: 18.5mm",
             "Width: 7mm ",
@@ -53,7 +53,7 @@ const data = {
         {
           imageURL: "/images/Earings/PSECZ04.jpg",
           id: "PSECZ04",
-          price: 1234,
+          price: 36,
           features: [
             "Length: 17.7mm",
             "Width: 5.2mm ",
@@ -69,7 +69,7 @@ const data = {
         {
           imageURL: "/images/Earings/PSECZ05.jpg",
           id: "PSECZ05",
-          price: 1234,
+          price: 49,
           features: [
             "Inner Diameter:9mm",
             "Length:27mm",
@@ -86,7 +86,7 @@ const data = {
         {
           imageURL: "/images/Earings/PSECZ06.jpg",
           id: "PSECZ06",
-          price: 1234,
+          price: 46,
           features: [
             "Length:23.5mm",
             "Width: 2.5mm ",
@@ -101,7 +101,7 @@ const data = {
         {
           imageURL: "/images/Earings/PSECZ07.jpg",
           id: "PSECZ07",
-          price: 1234,
+          price: 32,
           features: [
             "Length: 6mm",
             "Width: 6mm ",
@@ -117,7 +117,7 @@ const data = {
         {
           imageURL: "/images/Earings/PSECZ08.jpg",
           id: "PSECZ08",
-          price: 1234,
+          price: 49,
           features: [
             "Inner Diamter: 8.5mm",
             "Length: 12mm",
@@ -134,7 +134,7 @@ const data = {
         {
           imageURL: "/images/Earings/PSECZ09.jpg",
           id: "PSECZ09",
-          price: 1234,
+          price: 47,
           features: [
             "Length: 20.70mm",
             "Width: 7.65mm ",
@@ -157,7 +157,7 @@ const data = {
         {
           imageURL: "/images/Earings/PSEGS01.jpg",
           id: "PSEGS01",
-          price: 1234,
+          price: 32,
           features: [
             "Length: 21.5mm",
             "Width: 9.5mm",
@@ -179,7 +179,7 @@ const data = {
         {
           imageURL: "/images/Earings/PSEHE01.jpg",
           id: "PSEHE01",
-          price: 1234,
+          price: 28,
           features: [
             "Length: 8.6 mm",
             "Width: 9.6 mm",
@@ -195,7 +195,7 @@ const data = {
         {
           imageURL: "/images/Earings/PSEHE02.jpg",
           id: "PSEHE02",
-          price: 1234,
+          price: 39,
           features: [
             "Length: 8.9 mm",
             "Width: 8.9 mm",
@@ -218,7 +218,7 @@ const data = {
         {
           imageURL: "/images/Earings/PSEHO01.jpg",
           id: "PSEHO01",
-          price: 1234,
+          price: 48,
           features: [
             "Length: 11 mm",
             "Width: 6.5 mm",
@@ -234,7 +234,7 @@ const data = {
         {
           imageURL: "/images/Earings/PSEHO02.jpg",
           id: "PSEHO02",
-          price: 1234,
+          price: 84,
           features: [
             "Length: 17..3 mm",
             "Width: 8.3 mm",
@@ -256,7 +256,7 @@ const data = {
         {
           imageURL: "/images/Earings/PSEPS01.jpg",
           id: "PSEPS01",
-          price: 1234,
+          price: 48,
           features: [
             "Length: 13.5 mm",
             "Width: 1.7 mm",
@@ -272,7 +272,7 @@ const data = {
         {
           imageURL: "/images/Earings/PSEPS02.jpg",
           id: "PSEPS02",
-          price: 1234,
+          price: 44,
           features: [
             "Length: 10 mm",
             "Width: 4.15 mm",
@@ -288,7 +288,7 @@ const data = {
         {
           imageURL: "/images/Earings/PSEPS03.jpg",
           id: "PSEPS03",
-          price: 1234,
+          price: 24,
           features: [
             "Length: 12.7 mm",
             "Width: 7.6 mm",
@@ -304,7 +304,7 @@ const data = {
         {
           imageURL: "/images/Earings/PSEPS04.jpg",
           id: "PSEPS04",
-          price: 1234,
+          price: 68,
           features: [
             "Length: 13.5 mm",
             "Width: 16 mm",
@@ -326,7 +326,7 @@ const data = {
         {
           imageURL: "/images/Earings/PSEST01.jpg",
           id: "PSEST01",
-          price: 1234,
+          price: 12,
           features: [
             //"Length: 11 mm",
             //"Width: 6.5 mm",
@@ -342,7 +342,7 @@ const data = {
         {
           imageURL: "/images/Earings/PSEST02.jpg",
           id: "PSEST02",
-          price: 1234,
+          price: 13,
           features: [
             //"Length: 17..3 mm",
             //"Width: 8.3 mm",
@@ -411,7 +411,7 @@ const data = {
         {
           imageURL: "/images/Necklaces/PSNCZ01.jpg",
           id: "PSNCZ01",
-          price: 125412,
+          price: 55,
           features: [
             "Length: 16''+2'' Ext.",
             "Pendant Diameter: 8.2mm",
@@ -424,7 +424,7 @@ const data = {
         {
           imageURL: "/images/Necklaces/PSNCZ02.jpg",
           id: "PSNCZ02",
-          price: 125412,
+          price: 59,
           features: [
             "Length: 16''+2'' Ext.",
             "Pendant Diameter: 14.5 mm with bail",
@@ -437,7 +437,7 @@ const data = {
         {
           imageURL: "/images/Necklaces/PSNCZ03.jpg",
           id: "PSNCZ03",
-          price: 125412,
+          price: 42,
           features: [
             "Length: 16''+2'' Ext.",
             "Pendant Length: 11.4 mm with bail",
@@ -458,7 +458,7 @@ const data = {
         {
           imageURL: "/images/Necklaces/PSNH01.jpg",
           id: "PSNH01",
-          price: 125412,
+          price: 49,
           features: [
             "Length: 16''+1'' Ext.",
             "Pendant Length: 7.8mm",
@@ -471,7 +471,7 @@ const data = {
         {
           imageURL: "/images/Necklaces/PSNH02.jpg",
           id: "PSNH02",
-          price: 125412,
+          price: 55,
           features: [
             "Length: 16''+2'' Ext.",
             "Pendant Length: 17 mm with Bail",
@@ -485,7 +485,7 @@ const data = {
         {
           imageURL: "/images/Necklaces/PSNH03.jpg",
           id: "PSNH03",
-          price: 125412,
+          price: 62,
           features: [
             "Chain Length: 16'' + 1.5'' extension",
             "Heart Length: 10mm",
@@ -506,7 +506,7 @@ const data = {
         {
           imageURL: "/images/Necklaces/PSNPS01.jpg",
           id: "PSNPS01",
-          price: 125412,
+          price: 48,
           features: [
             "Length: 16'' +2'' Ext.",
             "Length Pendant: 7.8mm",
@@ -520,7 +520,7 @@ const data = {
         {
           imageURL: "/images/Necklaces/PSNPS02.jpg",
           id: "PSNPS02",
-          price: 125412,
+          price: 45,
           features: [
             "Length: 16'' +1'' Ext.",
             "Length Pendant: 7.2 mm",
@@ -534,7 +534,7 @@ const data = {
         {
           imageURL: "/images/Necklaces/PSNPS03.jpg",
           id: "PSNPS03",
-          price: 125412,
+          price: 68,
           features: [
             "Length: 16'' +2'' Ext.",
             "Length Pendant: 24 mm",
@@ -554,7 +554,7 @@ const data = {
         {
           imageURL: "/images/Necklaces/PSNR01.jpg",
           id: "PSNR01",
-          price: 125412,
+          price: 49,
           features: [
             "Length: 16''+2'' Ext.",
             "Pendant Length: 20.70mm with bail",
@@ -574,7 +574,7 @@ const data = {
           imageURL: "/images/Necklaces/PSNRL01.jpg",
           name: "PSNRL01",
           id: "EZ1144",
-          price: 125412,
+          price: 10,
           features: ["Leather Necklace 16'', 18'' and 20''-Stainless Clasp"],
           description: "Leather Necklace",
         },
@@ -589,7 +589,7 @@ const data = {
         {
           imageURL: "/images/Pearls/PSPE01.jpg",
           id: "PSPE01",
-          price: 125412,
+          price: 46,
           features: [
             "Length: 12 mm",
             "Width: 13mm",
@@ -604,7 +604,7 @@ const data = {
         {
           imageURL: "/images/Pearls/PSPE02.jpg",
           id: "PSPE02",
-          price: 125412,
+          price: 59,
           features: [
             "Length: 10.9 mm",
             "Width: 8 mm",
@@ -624,7 +624,7 @@ const data = {
         {
           imageURL: "/images/Pearls/PSPN01.jpg",
           id: "PSPN01",
-          price: 125412,
+          price: 49,
           features: [
             "Chain Length: 16'' + 2'' Extension",
             "Pear Size: 8mm",
@@ -647,7 +647,7 @@ const data = {
         {
           imageURL: "/images/Pearls/PSPR01.jpg",
           id: "PSNRL01",
-          price: 125412,
+          price: 34,
           features: [
             "Across Top: 12mm",
             "Pearl Size: 7.5mm",
@@ -659,7 +659,7 @@ const data = {
         {
           imageURL: "/images/Pearls/PSPR02.jpg",
           id: "PSNRL02",
-          price: 125412,
+          price: 36,
           features: [
             "Across Top: 9.3 mm",
             "Weight: 2 grams",
@@ -672,7 +672,7 @@ const data = {
         {
           imageURL: "/images/Pearls/PSPR03.jpg",
           id: "PSNRL03",
-          price: 125412,
+          price: 44,
           features: [
             "Center Stone Freshwater Pearl Diameter: 8.74mm",
             "Weight: 4.07 grams",
@@ -690,7 +690,7 @@ const data = {
         {
           imageURL: "/images/Pearls/PSPS01.jpg",
           id: "PSPS01",
-          price: 125412,
+          price: 59,
           features: [
             "Pendant Length: 17.6mm with Bail",
             "Pendant Width: 11.6mm",
@@ -714,7 +714,7 @@ const data = {
         {
           imageURL: "/images/Rings/PSRCZ01.jpg",
           id: "PSRCZ01",
-          price: 125412,
+          price: 42,
           features: [
             "Across Top: 7.5mm",
             "Weight: 2.5 grams",
@@ -726,7 +726,7 @@ const data = {
         {
           imageURL: "/images/Rings/PSRCZ02.jpg",
           id: "PSRCZ02",
-          price: 125412,
+          price: 29,
           features: [
             "Across Top: 1.5mm",
             "Weight: 1.3 grams",
@@ -738,7 +738,7 @@ const data = {
         {
           imageURL: "/images/Rings/PSRCZ03.jpg",
           id: "PSRCZ03",
-          price: 125412,
+          price: 29,
           features: [
             "Across Top: 4 mm",
             "Weight: 1.5 grams",
@@ -756,7 +756,7 @@ const data = {
         {
           imageURL: "/images/Rings/PSRGS01.jpg",
           id: "PSRGS01",
-          price: 125412,
+          price: 74,
           features: [
             "Width: 22.8mm across the top",
             "Weight: 7.0 grams",
@@ -768,7 +768,7 @@ const data = {
         {
           imageURL: "/images/Rings/PSRGS02.jpg",
           id: "PSRGS02",
-          price: 125412,
+          price: 69,
           features: [
             "Width: 11.5mm across the top",
             "Weight: 6.1 grams",
@@ -786,7 +786,7 @@ const data = {
         {
           imageURL: "/images/Rings/PSRPS01.jpg",
           id: "PSRPS01",
-          price: 125412,
+          price: 35,
           features: [
             "Across Top: 9mm",
             "Weight: 2 grams",
@@ -798,7 +798,7 @@ const data = {
         {
           imageURL: "/images/Rings/PSRPS02.jpg",
           id: "PSRPS02",
-          price: 125412,
+          price: 57,
           features: [
             "Across Top: 3.6mm",
             "Weight: 3.4 grams",
@@ -810,7 +810,7 @@ const data = {
         {
           imageURL: "/images/Rings/PSRPS03.jpg",
           id: "PSRPS03",
-          price: 125412,
+          price: 29,
           features: [
             "Across Top: 5 mm",
             "Weight: 1.5 grams",
@@ -828,7 +828,7 @@ const data = {
         {
           imageURL: "/images/Rings/PSRE01.jpg",
           id: "PSRE01",
-          price: 125412,
+          price: 39,
           features: [
             "Across Top: 31mm",
             "Weight: 2.3 grams",
@@ -840,7 +840,7 @@ const data = {
         {
           imageURL: "/images/Rings/PSRE02.jpg",
           id: "PSRE02",
-          price: 125412,
+          price: 29,
           features: [
             "Across Top: 3mm",
             "Weight: 2.0 grams",
@@ -852,7 +852,7 @@ const data = {
         {
           imageURL: "/images/Rings/PSRE03.jpg",
           id: "PSRE03",
-          price: 125412,
+          price: 41,
           features: [
             "Across Top: 4.5mm",
             "Stone Size: 2.5mm",
