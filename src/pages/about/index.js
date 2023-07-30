@@ -9,19 +9,19 @@ import Footer from "@/components/footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function AboutUs() {
-	return (
-		<>
-			<Head>
-				<title>Sterling</title>
-			</Head>
-			<div className="relative min-h-screen">
-				<Navbar />
-				<div>
-					<h1 className="text-3xl font-bold p-40 font-abc">About Us</h1>
-					<p>Tag line</p>
-				</div>
-				<Footer/>
-			</div>
-		</>
-	);
+  return (
+    <>
+      <Head>
+        <title>Sterling</title>
+      </Head>
+      <div className="relative min-h-screen">
+        <Navbar />
+        <div
+          className="bg-my_bg_aboutUs2 bg-center"
+          style={{ minHeight: "80vh" }}
+        ></div>
+        <Footer />
+      </div>
+    </>
+  );
 }

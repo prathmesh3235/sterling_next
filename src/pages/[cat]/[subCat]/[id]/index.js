@@ -7,6 +7,7 @@ import Footer from "@/components/footer";
 import DirectoryPath from "@/components/directoryPath";
 import data from "../../../../assets/data/content";
 import { useState } from "react";
+import { BiSolidCheckboxChecked } from "react-icons/bi";
 
 export default function ProductPage() {
   const [show, setShow] = useState(false);
@@ -39,9 +40,9 @@ export default function ProductPage() {
     : {};
   return (
     <>
-      <div className=" bg-my_bg_image2 content-between absolute min-h-screen w-screen">
+      <div className=" content-between w-screen">
         <Navbar />
-        <div className=" text-center">
+        <div className=" text-center" style={{ minHeight: "75vh" }}>
           <DirectoryPath />
           <h1>{product.description}</h1>
           <div className="flex justify-center p-6 flex-col sm:flex-row">
@@ -75,7 +76,14 @@ export default function ProductPage() {
               <h1 onClick={copylink} className="btn btn-danger">
                 Share this Product
               </h1>
-              {show && <h3>Copied Link to Clipboard</h3>}
+              {show && (
+                <div className="flex bg-white items-center rounded-md p-1">
+                  <BiSolidCheckboxChecked color="rgb(22 163 74)" size={25} />
+                  <p className="text-green-500 m-0 flex">
+                    Copied Link to Clipboard
+                  </p>
+                </div>
+              )}
             </div>
           </div>
         </div>

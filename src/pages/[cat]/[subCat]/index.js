@@ -20,12 +20,12 @@ export default function CategoryPage() {
 
   return (
     <>
-      <div className="min-h-screen relative">
+      <div className="">
         <Navbar />
         <DirectoryPath />
         <div
-          style={{ paddingBottom: "120px" }}
-          className="bg-my_bg_image2 flex flex-wrap justify-center"
+          className="flex flex-wrap justify-center pb-10"
+          style={{ minHeight: "72vh" }}
         >
           {subCategory &&
             subCategory.length > 0 && [
