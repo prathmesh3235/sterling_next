@@ -36,7 +36,7 @@ export default function BestSellingSlider() {
     }
   });
   return (
-    <div className="mx-6 text-center " style={{ paddingBottom: "150px" }}>
+    <div className="mx-6 text-center pb-10">
       <h1 className=" m-4 font-display text-center font-mono antialiased font-semibold tracking-wide text-black">
         Our Bestselling Products
       </h1>

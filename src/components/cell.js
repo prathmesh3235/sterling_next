@@ -21,10 +21,9 @@ export default function Cell({ productName, productURL, productImg }) {
             src={productImg}
             alt={productName}
             width={250}
+            height={250}
           />
-          <h2 className="text-black mt-2 bg-white border-gray-400 border-2 ">
-            {productName}
-          </h2>
+          <h2 className="text-black mt-2 bg-white  border-2 ">{productName}</h2>
         </Link>
       </div>
     </>

@@ -8,14 +8,14 @@ export default function DirectoryPath() {
     <>
       <div className="flex justify-center p-2 bg-black font-mono font-medium font top-0 right-0 w-full mb-3">
         {/* <div className="justify-around"> */}
-        <Link
+        {/* <Link
           className="text-white no-underline pr-1.5"
           href={{
             pathname: "/",
           }}
         >
           Home
-        </Link>
+        </Link> */}
         {router.query.cat && (
           <Link
             className="text-white no-underline pr-1.5"
@@ -23,7 +23,7 @@ export default function DirectoryPath() {
               pathname: "/" + router.query.cat,
             }}
           >
-            <span className=" text-white"> {">"} </span>
+            {/* <span className=" text-white"> {">"} </span> */}
             {router.query.cat}
           </Link>
         )}
